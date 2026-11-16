@@ -27,7 +27,7 @@ None in progress — system ready for the first real production.
 - Remotion licence: confirm Free vs Company licence for the organisation (`docs/LICENSING.md`).
 
 ## المزامنة
-- **المستودع:** https://github.com/moenab70-tech/sio-motion (خاص / Private، الفرع `main`). أُنشئ ورُفع أول commit في 2026-11-16.
+- **المستودع:** https://github.com/moenab70-tech/sio-motion (عام / Public منذ 2026-11-16، الفرع `main`). أُنشئ ورُفع أول commit في 2026-11-16.
 - **GitHub = الكود والقوالب والوثائق والإعدادات فقط** (≈ 20MB). الملفات الثقيلة مكانها **Google Drive، مو GitHub**:
   - ملفات بلندر `.blend` / `.blend1`، وكاش Poly Haven (`**/polyhaven_cache/`)، ورندرات بلندر.
   - الوسائط الخام: `public/media/`، `public/audio/`، وأي `.mp4/.mov/.wav/.mp3/.aep`.

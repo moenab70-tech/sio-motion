@@ -29,7 +29,8 @@ Remotion 4.0.543 + React 19 + TS library of Arabic motion graphics for the Saudi
 
 ## Skills & continuity
 - Project skills (load on demand): `sio-production` (video workflow, routing, render/failure rules), `sio-motion-styles` (content → style), `remotion-best-practices` (official Remotion reference router — techniques only, SIO workflow takes precedence), `ui-ux-pro-max` (UI/layout/typography/chart research — never brand identity). Don't load other skills unless the task needs them.
-- Session start: read `SIO_PROJECT_STATUS.md` (current task, pending, known issues); update it only on meaningful progress.
+- Session start: if the project is a Git repo, `git pull` first; then read `SIO_PROJECT_STATUS.md` (current task, pending, known issues).
+- After every task that changes anything (code, renders, decisions, approvals): update `SIO_PROJECT_STATUS.md` with a dated one-line entry, then — if the project is a Git repo with a remote — commit and push (code/docs only; heavy files stay out per `.gitignore`). The user works from several devices (laptop, office PC, phone); this file is the shared memory between them.
 
 ## Docs (read on demand)
 `docs/BRAND.md` · `docs/EXPORT.md` · `docs/FX.md` · `docs/DECISIONS.md` · `docs/TROUBLESHOOTING.md` · `docs/LICENSING.md`
