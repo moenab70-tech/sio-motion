@@ -23,8 +23,17 @@ None in progress — system ready for the first real production.
 - Google Fonts load at render time → internet required.
 - Motion Styles test "baseline unchanged" check reports 3 intended edits (CLAUDE.md, docs/DECISIONS.md, README.md) until the baseline is refreshed.
 - Large ProRes files: GeometricPattern (~720 MB/8 s), Holographic (~440 MB/8 s).
-- Git 2.39.5 now available (Apple Command Line Tools installed 2026-11-15) but the project is not yet a Git repository.
+- Git repository since 2026-11-16 → see «المزامنة» below.
 - Remotion licence: confirm Free vs Company licence for the organisation (`docs/LICENSING.md`).
+
+## المزامنة
+- **المستودع:** https://github.com/moenab70-tech/sio-motion (خاص / Private، الفرع `main`). أُنشئ ورُفع أول commit في 2026-11-16.
+- **GitHub = الكود والقوالب والوثائق والإعدادات فقط** (≈ 20MB). الملفات الثقيلة مكانها **Google Drive، مو GitHub**:
+  - ملفات بلندر `.blend` / `.blend1`، وكاش Poly Haven (`**/polyhaven_cache/`)، ورندرات بلندر.
+  - الوسائط الخام: `public/media/`، `public/audio/`، وأي `.mp4/.mov/.wav/.mp3/.aep`.
+  - المخرجات: `out/`، `outputs/`، `exports/`، `backups/`.
+- على جهاز جديد: `git clone` ← `npm install` ← انسخ المجلدات الثقيلة أعلاه من Drive لنفس المسارات.
+- القواعد في `.gitignore`؛ لا يُرفع أي ملف أكبر من 50MB ولا أي `.env`.
 
 ## Skills
 | Skill | Scope | Purpose |
