@@ -1,0 +1,37 @@
+{
+  "name": "beard_short",
+  "description": "Short trimmed full beard with mustache, strands combed flat along the skin (no standing hairs).",
+  "region": {
+    "type": "beard",
+    "sideburn_top": 0.007,
+    "cheek_line": 0.002,
+    "chin_depth": 0.065,
+    "mustache": 1.0,
+    "soft": 0.005
+  },
+  "density_per_cm2": 75,
+  "points": 6,
+  "radius": 8e-05,
+  "tip_ratio": 0.25,
+  "growth": {
+    "length": [
+      0.005,
+      0.009
+    ],
+    "length_by_weight": true,
+    "hug": true,
+    "root_lift": 0.0003,
+    "volume": 0.0018,
+    "volume_shape": 1.0
+  },
+  "flow": {
+    "kind": "beard",
+    "jitter": 0.08
+  },
+  "scalp_cap": {
+    "offset": 0.0002,
+    "alpha": 0.85
+  },
+  "color_tip_mult": 1.0,
+  "seed": 5
+}

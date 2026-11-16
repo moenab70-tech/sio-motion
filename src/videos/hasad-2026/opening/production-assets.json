@@ -1,0 +1,119 @@
+{
+  "note": "Final production assets for «من فكرة إلى إنجاز». M-* = approved storyboard frames refined to 1920 (img2img 0.7). Others = new isolated elements.",
+  "style": "cinematic 2D illustration, hand-painted animated feature film still, painterly brush texture, elegant and mature, muted navy blue and warm gold color palette, soft volumetric light, film grain",
+  "characters": {
+    "engineer": "a mature Saudi engineer in his late thirties, neatly trimmed short black beard, calm intelligent face, wearing a crisp white thobe and a red-and-white checkered shemagh with a black agal",
+    "engineerF": "a graceful Saudi woman engineer in her early thirties, gentle confident smile, wearing an elegant flowing black abaya with fine subtle gold embroidery along the sleeves and front edges, and a neatly wrapped soft dark navy hijab framing her face, modest and refined, holding a tablet",
+    "senior": "a distinguished senior Saudi engineer in his late fifties with a neatly trimmed short grey beard and thin reading glasses, wearing a white thobe, his head covered with a red-and-white checkered shemagh held by a black agal"
+  },
+  "frames": [
+    {
+      "id": "M-01A-office-wide",
+      "w": 1920,
+      "h": 1088,
+      "seed": 42,
+      "steps": 8,
+      "init": "public/media/opening/assets/init/01A-office-wide.png",
+      "strength": 0.7,
+      "prompt": "Wide shot from the side, {engineer} seated at a wooden drafting desk in a quiet office at blue hour, seen in three-quarter profile, sketching on large drawing paper with a pencil, warm desk lamp light on the paper, large window on the left with palm trees and a deep blue dusk sky with an amber horizon, rolled blueprints on a shelf"
+    },
+    {
+      "id": "M-02A-night-reflect",
+      "w": 1920,
+      "h": 1088,
+      "seed": 77,
+      "steps": 8,
+      "init": "public/media/opening/assets/init/02A-night-reflect.png",
+      "strength": 0.7,
+      "prompt": "Medium shot, {engineer}, slim build, seated at his drafting desk at night, leaning back slightly while studying the drawing paper he holds in both hands, thoughtful determined expression, warm desk lamp glow, dark window behind him with distant city lights, a round wall clock on the wall"
+    },
+    {
+      "id": "M-03A-team-dawn",
+      "w": 1920,
+      "h": 1088,
+      "seed": 58,
+      "steps": 8,
+      "init": "public/media/opening/assets/init/03A-team-dawn.png",
+      "strength": 0.7,
+      "prompt": "Medium wide shot at sunrise in an office, exactly three people and no one else around a drafting desk examining one large engineering drawing: on the left {engineer} explaining with his hand on the drawing; in the middle {engineerF}; on the right {senior}, nodding approvingly. Golden morning light through the window"
+    },
+    {
+      "id": "M-03B-canal-reveal",
+      "w": 1920,
+      "h": 1088,
+      "seed": 5,
+      "steps": 8,
+      "init": "public/media/opening/assets/init/03B-canal-reveal.png",
+      "strength": 0.7,
+      "prompt": "Epic wide panorama of a completed modern irrigation canal with concrete sluice gates and clear flowing water running through green date palm groves and farmland in Saudi Arabia, golden hour, long soft shadows, gentle mist, majestic sense of scale"
+    },
+    {
+      "id": "M-04A-team-embankment",
+      "w": 1920,
+      "h": 1088,
+      "seed": 88,
+      "steps": 8,
+      "init": "public/media/opening/assets/init/04A-team-embankment.png",
+      "strength": 0.7,
+      "prompt": "View from behind of a small group of exactly three people, two men and one woman, standing side by side on the embankment of a completed irrigation canal at golden hour, looking at the flowing water and the palm groves. Left: a man in a white thobe, a red-and-white checkered shemagh on his head with a black agal. Middle: a woman in an elegant black abaya and dark navy hijab. Right: an older man in a white thobe, a red-and-white checkered shemagh on his head with a black agal. Warm backlight, sun low on the horizon, sparkling water"
+    },
+    {
+      "id": "P-1B-paper",
+      "w": 1920,
+      "h": 1088,
+      "seed": 12,
+      "steps": 6,
+      "prompt": "Top-down view of a sheet of cream drafting paper with faint blue grid lines lying on a dark wooden desk, completely blank paper with no drawing, warm desk lamp light from the right, soft vignette, no hands, no pencil, no objects on the paper"
+    },
+    {
+      "id": "E-1B-hand",
+      "w": 1344,
+      "h": 768,
+      "seed": 14,
+      "steps": 6,
+      "prompt": "Top-down view of a man’s right hand holding a yellow wooden pencil as if writing, the hand comes from the upper right wearing a crisp white thobe sleeve with a neat cuff, warm lamp light from the right, isolated on a plain flat dark navy background, nothing else in the image"
+    },
+    {
+      "id": "P-2B-desk",
+      "w": 1920,
+      "h": 1088,
+      "seed": 24,
+      "steps": 6,
+      "prompt": "Top-down view of an empty dark wooden desk at night, a warm desk lamp pool of light in the centre, a coffee cup and a pencil near the edge, completely empty centre with no papers, cinematic, rich wood grain"
+    },
+    {
+      "id": "E-4A-senior-back",
+      "w": 1024,
+      "h": 1024,
+      "seed": 303,
+      "steps": 6,
+      "prompt": "View from behind of {senior}, standing, full body from head to feet, the red-and-white checkered shemagh covering his head and falling over his shoulders and back, warm golden backlight rim on the edges, isolated on a plain flat dark navy background"
+    },
+    {
+      "id": "E-4A-senior-back-b",
+      "w": 1024,
+      "h": 1024,
+      "seed": 404,
+      "steps": 6,
+      "prompt": "View from directly behind of an older Saudi man standing, we only see his back, a red-and-white checkered shemagh covers his whole head and the back of his neck, the shemagh fabric hangs down his back in a long triangle over a white thobe, a black agal ring sits on top of the head, no hair visible, warm golden backlight rim on the edges, upper body to the knees, isolated on a plain flat dark navy background"
+    },
+    {
+      "id": "E-4A-senior-back-c",
+      "w": 1024,
+      "h": 1024,
+      "seed": 505,
+      "steps": 6,
+      "prompt": "View from directly behind of an older Saudi man standing, we only see his back, a red-and-white checkered shemagh covers his whole head and the back of his neck, the shemagh fabric hangs down his back in a long triangle over a white thobe, a black agal ring sits on top of the head, no hair visible, warm golden backlight rim on the edges, upper body to the knees, isolated on a plain flat dark navy background"
+    },
+    {
+      "id": "M-02A-night-v2",
+      "w": 1920,
+      "h": 1088,
+      "seed": 77,
+      "steps": 8,
+      "init": "public/media/opening/assets/M-02A-night-reflect.png",
+      "strength": 0.5,
+      "prompt": "Late at night, deep midnight blue darkness. Medium shot, {engineer}, seated at his drafting desk, studying the drawing paper he holds in both hands, thoughtful determined expression. The only light is a warm desk lamp illuminating his face, hands and the paper; the rest of the room is in cool dark blue shadow. The window behind him is dark navy night sky with tiny distant city lights, no sunset, no orange sky. A round wall clock on the wall"
+    }
+  ]
+}

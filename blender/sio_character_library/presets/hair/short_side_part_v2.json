@@ -1,0 +1,55 @@
+{
+  "name": "short_side_part_v2",
+  "description": "v2 groomed professional side part (part on his left): even strand coverage, clean parting, large side swept across and back, tapered sides, no stray tips.",
+  "region": {
+    "type": "scalp",
+    "front": 0.08,
+    "temple_recess": 0.01,
+    "above_ear": 0.006,
+    "sideburn": -0.002,
+    "nape": 0.03,
+    "soft": 0.003
+  },
+  "sampling": "stratified",
+  "density_per_cm2": 60,
+  "points": 12,
+  "radius": 0.00012,
+  "tip_ratio": 0.3,
+  "growth": {
+    "length": [
+      0.045,
+      0.055
+    ],
+    "length_by_weight": true,
+    "hug": true,
+    "root_lift": 0.0005,
+    "volume": 0.008,
+    "volume_shape": 0.6,
+    "tip_settle": 0.75,
+    "side_volume_cut": 0.65
+  },
+  "length_zones": {
+    "top": 1.0,
+    "sides": 0.3,
+    "rear_taper": 0.55
+  },
+  "flow": {
+    "kind": "side_part_v2",
+    "part_x": 0.03,
+    "back": 0.7,
+    "sweep": 0.8,
+    "jitter": 0.015
+  },
+  "clump": {
+    "factor": 0.08,
+    "guides": 0.2,
+    "shape": 2.0
+  },
+  "smooth_iters": 1,
+  "scalp_cap": {
+    "offset": 0.0004,
+    "alpha": 1.0
+  },
+  "color_tip_mult": 1.15,
+  "seed": 3
+}

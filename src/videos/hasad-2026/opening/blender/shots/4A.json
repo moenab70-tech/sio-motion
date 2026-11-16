@@ -1,0 +1,92 @@
+{
+ "frames": 120,
+ "fps": 30,
+ "res": [
+  1920,
+  1080
+ ],
+ "percent": 100,
+ "out": "/Users/mohammadalqurain/Documents/Remotion-MotionGraphics/public/media/opening/render/4A/",
+ "camera": {
+  "lens": 50,
+  "keys": [
+   {
+    "f": 1,
+    "x": 0,
+    "z": 0,
+    "dist": 10
+   }
+  ]
+ },
+ "layers": [
+  {
+   "name": "bg",
+   "image": "/Users/mohammadalqurain/Documents/Remotion-MotionGraphics/public/media/opening/layers/4A-bg.png",
+   "depth": 0.001,
+   "overscan": 1
+  },
+  {
+   "name": "fg",
+   "image": "/Users/mohammadalqurain/Documents/Remotion-MotionGraphics/public/media/opening/layers/4A-fg.png",
+   "depth": 0,
+   "overscan": 1,
+   "handles": [
+    {
+     "u": 0.36,
+     "v": 0.27,
+     "r": 0.05,
+     "wave": {
+      "dx": 2.5,
+      "rot": 0.8,
+      "hz": 0.55
+     }
+    },
+    {
+     "u": 0.69,
+     "v": 0.55,
+     "r": 0.07,
+     "wave": {
+      "dx": 5,
+      "dy": 1,
+      "rot": 1.2,
+      "hz": 0.6,
+      "phase": 1
+     }
+    },
+    {
+     "u": 0.72,
+     "v": 0.82,
+     "r": 0.05,
+     "wave": {
+      "dx": 6,
+      "rot": 2,
+      "hz": 0.7,
+      "phase": 2
+     }
+    },
+    {
+     "u": 0.52,
+     "v": 0.9,
+     "r": 0.07,
+     "wave": {
+      "dx": 4,
+      "hz": 0.5,
+      "phase": 0.5
+     }
+    },
+    {
+     "u": 0.52,
+     "v": 0.4,
+     "r": 0.12,
+     "wave": {
+      "s": 0.004,
+      "dy": 1.5,
+      "hz": 0.25
+     }
+    }
+   ]
+  }
+ ],
+ "filter_size": 0.6,
+ "interp": "Linear"
+}

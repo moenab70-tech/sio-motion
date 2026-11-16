@@ -1,0 +1,23 @@
+# Solved problems (symptom → cause → fix)
+
+- **h264 render fails "ProRes profile set but codec is h264"** → profile set globally in config → use `PREVIEW=1` (config switches codec).
+- **`remotion compositions --quiet` returns nothing on stdout** → list printed on stderr → read last line of stdout+stderr (`render-production.mjs`).
+- **Bundled `npx remotion ffmpeg` lacks `overlay`, `drawbox`, `rawvideo`, webp decoder** → minimal build → extract PNG (`-pix_fmt rgba`) and analyse in Node (`scripts/check-alpha.mjs`); convert webp with macOS `sips`.
+- **Logo ignored `position:absolute`** → component forced `position:relative` after spreading style → `position: style?.position ?? "relative"`.
+- **RTL: absolutely positioned scaled 1920px child rendered off-pane** → with `inset:0` + explicit width, RTL drops `left` → use `left:0; top:0; direction:ltr` on the scaler.
+- **Lower third on wrong side in RTL** → `alignItems: flex-end` = left in RTL column flex → use `flex-start` for the start side.
+- **`@remotion/motion-blur` CameraMotionBlur: 0% blurred pixels** (still, 180°, 360°, real render) → sub-frame sampling not effective here → removed; use `DirectionalBlur`.
+- **3D metallic rings render as dark lines over numbers** → no environment map → emissive + metalness ≤0.05, rings kept off-centre.
+- **3D heading overlapped tallest bar** → camera target/height → TARGET y 2.1, maxH 3.1, heading top 70.
+- **Intl output contains invisible bidi marks** → strip `؜‎‏` in `formatNumber`.
+- **`npm view` very slow for big packages** → query registry with `curl https://registry.npmjs.org/<pkg>`.
+- **Supplied "white logo" was an all-white 1920×1080 RGB image** → verify pixel stats before registering any asset.
+- **Blender 5 `file_format='FFMPEG'` not found** → set `image_settings.media_type='VIDEO'` first.
+- **MPFB particle beard appears on one side only** → Mask modifiers before the particle system shift vertex indices; put hair modifiers right after Armature (or use the Hair Curves library).
+- **MPFB fingers explode into long arcs after adding a modifier** → never insert between "Armature" and the multi-modifier "Armature PV"; add after the last Armature.
+- **Blender 5 `bone.select` AttributeError** → selection is on the pose bone (`pose_bone.select`).
+- **Blender MCP says "Poly Haven is switched off" after opening/creating a file** → it is a per-scene property: `bpy.context.scene.blendermcp_use_polyhaven = True`.
+- **MCP Poly Haven material crumples the mesh in Eevee** → height map is wired to Material Output > Displacement; use `sio_char.polyhaven.fix_mcp_material()`.
+- **Pink/magenta skin after copying a character .blend to another folder** → relative texture paths; save with `make_paths_absolute()` or repair with `scripts/fix_blend_paths.py`.
+- **Hand-vs-desk measurements wildly off on MPFB bodies** → exclude helper geometry (only vertices in the `body` vertex group).
+- H.264 export from CLI: global config forces ProRes profile unless `PREVIEW=1`; use `PREVIEW=1 … --crf=16` for final MP4 deliveries.

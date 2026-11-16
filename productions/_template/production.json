@@ -1,0 +1,39 @@
+{
+  "title": "اسم المشروع",
+  "client": "المؤسسة العامة للري",
+  "createdAt": "",
+  "notes": "Each shot = one template + the props to change. Unlisted props keep the template defaults. See TEMPLATES.md.",
+  "shots": [
+    {
+      "id": "01-title",
+      "template": "Title-WithLogo",
+      "props": {
+        "eyebrow": "عنوان صغير",
+        "title": "العنوان الرئيسي",
+        "subtitle": "العنوان الفرعي"
+      }
+    },
+    {
+      "id": "02-lower-third",
+      "template": "LowerThird-WithLogo",
+      "props": { "name": "الاسم", "role": "المنصب", "durationInSeconds": 6 }
+    },
+    {
+      "id": "03-stats",
+      "template": "Stat-Row",
+      "props": {
+        "heading": "أبرز المؤشرات",
+        "items": [
+          { "value": 90, "suffix": "%", "label": "مؤشر 1" },
+          { "value": 1200, "label": "مؤشر 2" },
+          { "value": 3.5, "decimals": 1, "suffix": "مليار", "label": "مؤشر 3" }
+        ]
+      }
+    },
+    {
+      "id": "04-transition",
+      "template": "Transition-Panels",
+      "props": {}
+    }
+  ]
+}

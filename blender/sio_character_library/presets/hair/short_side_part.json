@@ -1,0 +1,51 @@
+{
+  "name": "short_side_part",
+  "description": "Professional short male cut, side part on the left, top combed back and across, short sides.",
+  "region": {
+    "type": "scalp",
+    "front": 0.078,
+    "temple_recess": 0.012,
+    "above_ear": 0.004,
+    "sideburn": -0.004,
+    "nape": 0.035,
+    "soft": 0.004
+  },
+  "density_per_cm2": 55,
+  "points": 12,
+  "radius": 0.00012,
+  "tip_ratio": 0.3,
+  "growth": {
+    "length": [
+      0.04,
+      0.06
+    ],
+    "length_by_weight": true,
+    "hug": true,
+    "root_lift": 0.0006,
+    "volume": 0.008,
+    "volume_shape": 0.6
+  },
+  "length_zones": {
+    "top": 1.0,
+    "sides": 0.38
+  },
+  "flow": {
+    "kind": "side_part",
+    "part_x": -0.035,
+    "back": 0.8,
+    "sweep": 0.6,
+    "lift": 0.0,
+    "jitter": 0.03
+  },
+  "clump": {
+    "factor": 0.25,
+    "guides": 0.08,
+    "shape": 1.5
+  },
+  "scalp_cap": {
+    "offset": 0.0004,
+    "alpha": 1.0
+  },
+  "color_tip_mult": 1.15,
+  "seed": 3
+}

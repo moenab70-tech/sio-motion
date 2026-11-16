@@ -1,0 +1,71 @@
+{
+  "name": "engineer_f01",
+  "description": "Female engineer, early 30s, professional casual clothes, long dark hair (swap to 'ponytail' for tied hair).",
+  "macro": {
+    "gender": 0.0,
+    "age": 0.55,
+    "muscle": 0.5,
+    "weight": 0.45,
+    "proportions": 0.75,
+    "height": 0.55,
+    "cupsize": 0.5,
+    "firmness": 0.5,
+    "race": {
+      "asian": 0.12,
+      "caucasian": 0.78,
+      "african": 0.1
+    }
+  },
+  "rig": "rigify.human",
+  "skin": "young_caucasian_female",
+  "skin_type": "ENHANCED_SSS",
+  "skin_tint": {
+    "color": [
+      0.46,
+      0.28,
+      0.17
+    ],
+    "strength": 0.6,
+    "brightness": -0.04
+  },
+  "eyes": "high-poly",
+  "eye_color": [
+    0.16,
+    0.085,
+    0.04
+  ],
+  "eyebrows": "eyebrow002",
+  "eyelashes": "eyelashes02",
+  "teeth": "teeth_base",
+  "tongue": "tongue01",
+  "clothes": [
+    "female_elegantsuit01",
+    "shoes02"
+  ],
+  "hair": [
+    "long_center_part"
+  ],
+  "hair_color": [
+    0.025,
+    0.017,
+    0.012
+  ],
+  "hide_mpfb_hair_proxy": true,
+  "material_polish": {
+    "skin": {
+      "clearcoat": 0.03,
+      "roughness": 0.5,
+      "sss": 0.3,
+      "pore_strength": 0.15
+    },
+    "cloth": {
+      "roughness": 0.82,
+      "sheen": 0.25,
+      "normal_strength": 0.7
+    },
+    "hair": {
+      "roughness": 0.6,
+      "specular": 0.22
+    }
+  }
+}

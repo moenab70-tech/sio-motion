@@ -1,0 +1,73 @@
+{
+  "title": "اختبار سير العمل — نموذج",
+  "client": "المؤسسة العامة للري",
+  "createdAt": "2026-11-14",
+  "notes": "Workflow verification sample (2026-11-14). Safe to delete.",
+  "shots": [
+    {
+      "id": "01-title",
+      "template": "Title-WithLogo",
+      "props": {
+        "eyebrow": "تقرير الإنجاز 2026",
+        "title": "تحسين كفاءة الري",
+        "subtitle": "نتائج المرحلة الأولى"
+      }
+    },
+    {
+      "id": "02-lower-third",
+      "template": "LowerThird-WithLogo",
+      "props": {
+        "name": "الاسم",
+        "role": "المنصب",
+        "durationInSeconds": 6
+      }
+    },
+    {
+      "id": "03-stats",
+      "template": "Stat-Row",
+      "props": {
+        "heading": "أبرز المؤشرات",
+        "items": [
+          {
+            "value": 90,
+            "suffix": "%",
+            "label": "مؤشر 1"
+          },
+          {
+            "value": 1200,
+            "label": "مؤشر 2"
+          },
+          {
+            "value": 3.5,
+            "decimals": 1,
+            "suffix": "مليار",
+            "label": "مؤشر 3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "04-transition",
+      "template": "Transition-Panels",
+      "props": {}
+    },
+    {
+      "id": "05-project",
+      "template": "Project-WithLogo",
+      "props": {
+        "projectName": "مشروع تأهيل قنوات الري",
+        "location": "الأحساء",
+        "duration": "24 شهراً",
+        "budget": {
+          "value": 850000000,
+          "currency": "ريال",
+          "compact": true,
+          "decimals": 0
+        },
+        "progress": 45,
+        "tag": "تأهيل",
+        "status": "قيد التنفيذ"
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "note": "Storyboard preview frames for «من فكرة إلى إنجاز» — FLUX.1-schnell (Apache-2.0), local. Previews only, not final art.",
+  "style": "cinematic 2D illustration, hand-painted animated feature film still, painterly brush texture, elegant and mature, muted navy blue and warm gold color palette, soft volumetric light, film grain",
+  "characters": {
+    "engineer": "a mature Saudi engineer in his late thirties, neatly trimmed short black beard, calm intelligent face, wearing a crisp white thobe and a red-and-white checkered shemagh with a black agal",
+    "engineerF": "a graceful Saudi woman engineer in her early thirties, gentle confident smile, wearing an elegant flowing black abaya with fine subtle gold embroidery along the sleeves and front edges, and a neatly wrapped soft dark navy hijab framing her face, modest and refined, holding a tablet",
+    "senior": "a distinguished senior Saudi engineer in his late fifties with a neatly trimmed short grey beard and thin reading glasses, wearing a white thobe, his head covered with a red-and-white checkered shemagh held by a black agal"
+  },
+  "frames": [
+    {
+      "id": "00-character-sheet",
+      "w": 1344,
+      "h": 768,
+      "seed": 101,
+      "prompt": "Character turnaround sheet of the same man shown three times side by side, each view complete from the top of the head to the waist: front view, three-quarter view, side profile. {engineer}. Every view wears the identical red-and-white checkered shemagh and black agal. Plain dark navy wall background, soft evening light"
+    },
+    {
+      "id": "00b-sheet-engineerF",
+      "w": 1344,
+      "h": 768,
+      "seed": 201,
+      "prompt": "Character turnaround sheet of the same person shown three times side by side, each view complete from the top of the head to the waist: front view, three-quarter view, side profile. {engineerF}. Identical outfit in every view. Plain dark navy wall background, soft evening light"
+    },
+    {
+      "id": "00c-sheet-senior",
+      "w": 1344,
+      "h": 768,
+      "seed": 377,
+      "prompt": "Character turnaround sheet of the same person shown three times side by side, each view complete from the top of the head to the waist: front view, three-quarter view, side profile. {senior}. Identical outfit in every view. Plain dark navy wall background, soft evening light"
+    },
+    {
+      "id": "01A-office-wide",
+      "w": 1344,
+      "h": 768,
+      "seed": 42,
+      "prompt": "Wide shot from the side, {engineer} seated at a wooden drafting desk in a quiet office at blue hour, seen in three-quarter profile, sketching on large drawing paper with a pencil, warm desk lamp light on the paper, large window on the left with palm trees and a deep blue dusk sky with an amber horizon, rolled blueprints on a shelf"
+    },
+    {
+      "id": "01B-pencil-closeup",
+      "w": 1344,
+      "h": 768,
+      "seed": 11,
+      "prompt": "Top-down close-up of a man's hand in a white thobe sleeve sketching an engineering cross-section of an irrigation canal with a pencil on cream drafting paper with faint blue grid lines, warm lamp light from the right, shallow depth of field"
+    },
+    {
+      "id": "02A-night-reflect",
+      "w": 1344,
+      "h": 768,
+      "seed": 77,
+      "prompt": "Medium shot, {engineer}, slim build, seated at his drafting desk at night, leaning back slightly while studying the drawing paper he holds in both hands, thoughtful determined expression, warm desk lamp glow, dark window behind him with distant city lights, a round wall clock on the wall"
+    },
+    {
+      "id": "02B-desk-timelapse",
+      "w": 1344,
+      "h": 768,
+      "seed": 23,
+      "prompt": "Top-down view of a wooden desk at night covered with several revised engineering sketches of irrigation channels layered on top of each other, eraser crumbs, a pencil, a coffee cup, a ruler, warm desk lamp pool of light, no people"
+    },
+    {
+      "id": "03A-team-dawn",
+      "w": 1344,
+      "h": 768,
+      "seed": 58,
+      "prompt": "Medium wide shot at sunrise in an office, exactly three people and no one else around a drafting desk examining one large engineering drawing: on the left {engineer} explaining with his hand on the drawing; in the middle {engineerF}; on the right {senior}, nodding approvingly. Golden morning light through the window"
+    },
+    {
+      "id": "03B-canal-reveal",
+      "w": 1344,
+      "h": 768,
+      "seed": 5,
+      "prompt": "Epic wide panorama of a completed modern irrigation canal with concrete sluice gates and clear flowing water running through green date palm groves and farmland in Saudi Arabia, golden hour, long soft shadows, gentle mist, majestic sense of scale"
+    },
+    {
+      "id": "04A-team-embankment",
+      "w": 1344,
+      "h": 768,
+      "seed": 88,
+      "prompt": "View from behind of a small group of exactly three people, two men and one woman, standing side by side on the embankment of a completed irrigation canal at golden hour, looking at the flowing water and the palm groves. Left: a man in a white thobe, a red-and-white checkered shemagh on his head with a black agal. Middle: a woman in an elegant black abaya and dark navy hijab. Right: an older man in a white thobe, a red-and-white checkered shemagh on his head with a black agal. Warm backlight, sun low on the horizon, sparkling water"
+    },
+    {
+      "id": "04B-golden-symbol",
+      "w": 1344,
+      "h": 768,
+      "seed": 3,
+      "prompt": "Abstract elegant symbol: a radiant golden water drop surrounded by delicate golden leaf-shaped petals arranged in a circle, glowing softly, floating gold dust particles, on a deep navy blue background, minimal, luxurious, centered"
+    }
+  ]
+}

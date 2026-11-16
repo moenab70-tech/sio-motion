@@ -1,0 +1,17 @@
+{
+  "name": "beard_short_v2",
+  "description": "v2 short trimmed beard: exactly symmetric, mustache stops above the upper lip, clear gap around both lips, strands lie on the skin.",
+  "region": {"type": "beard", "sideburn_top": 0.006, "cheek_line": 0.004, "chin_depth": 0.062, "mustache": 0.85,
+             "mustache_gap": 0.003, "lip_clearance": 0.0045, "soft": 0.004},
+  "sampling": "stratified",
+  "symmetric": true,
+  "density_per_cm2": 90,
+  "points": 6,
+  "radius": 0.00007,
+  "tip_ratio": 0.25,
+  "growth": {"length": [0.004, 0.007], "length_by_weight": true, "hug": true, "root_lift": 0.0002, "volume": 0.0012, "volume_shape": 1.0},
+  "flow": {"kind": "beard", "jitter": 0.05},
+  "scalp_cap": {"offset": 0.00015, "alpha": 0.7},
+  "color_tip_mult": 1.0,
+  "seed": 5
+}

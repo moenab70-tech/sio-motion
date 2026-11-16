@@ -1,0 +1,11 @@
+{
+  "asset": "engineer_m01",
+  "version": "2.1",
+  "status": "Ready for User Approval",
+  "date": "2026-11-15",
+  "character_preset": "presets/characters/engineer_m01_v2_1.json",
+  "hair_presets": ["presets/hair/short_side_part_v2.json", "presets/hair/beard_short_v2.json"],
+  "build_script": "scripts/poc_engineer_drawing_v2_1.py",
+  "previous_versions": {"v1": "tests/poc_engineer_drawing/", "v2": "tests/poc_engineer_drawing_v2/"},
+  "blender": "5.3.0", "mpfb": "build 20261010", "rigify": "bundled"
+}

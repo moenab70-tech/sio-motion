@@ -1,0 +1,95 @@
+{
+  "name": "engineer_m02",
+  "description": "Senior irrigation engineer (colleague), 50s, greying short hair and beard.",
+  "macro": {
+    "gender": 1.0,
+    "age": 0.82,
+    "muscle": 0.55,
+    "weight": 0.55,
+    "proportions": 0.75,
+    "height": 0.58,
+    "cupsize": 0.5,
+    "firmness": 0.5,
+    "race": {
+      "asian": 0.15,
+      "caucasian": 0.72,
+      "african": 0.13
+    }
+  },
+  "rig": "rigify.human",
+  "skin": "middleage_caucasian_male",
+  "skin_type": "ENHANCED_SSS",
+  "skin_tint": {
+    "color": [
+      0.44,
+      0.26,
+      0.15
+    ],
+    "strength": 0.72,
+    "brightness": -0.06
+  },
+  "eyes": "high-poly",
+  "eye_color": [
+    0.16,
+    0.085,
+    0.04
+  ],
+  "eyebrows": "eyebrow001",
+  "eyelashes": "eyelashes01",
+  "teeth": "teeth_base",
+  "tongue": "tongue01",
+  "clothes": [
+    "male_casualsuit03",
+    "shoes01"
+  ],
+  "hair": [
+    "short_side_part_v3",
+    "beard_short_v3"
+  ],
+  "hair_color": [
+    0.16,
+    0.155,
+    0.15
+  ],
+  "hide_mpfb_hair_proxy": true,
+  "expression": "focused",
+  "corrective_smooth": {
+    "factor": 0.5,
+    "iterations": 6
+  },
+  "material_polish": {
+    "skin": {
+      "clearcoat": 0.03,
+      "roughness": 0.5,
+      "sss": 0.3,
+      "pore_strength": 0.15
+    },
+    "cloth": {
+      "roughness": 0.82,
+      "sheen": 0.25,
+      "normal_strength": 0.7
+    },
+    "hair": {
+      "roughness": 0.6,
+      "specular": 0.22
+    }
+  },
+  "skin_realism": {
+    "pores": 850,
+    "pore_depth": 0.5,
+    "rough_min": 0.4,
+    "rough_max": 0.62,
+    "color_var": 0.07,
+    "sss_weight": 0.35,
+    "sss_radius_mm": [
+      3.6,
+      1.4,
+      0.7
+    ],
+    "specular": 0.38,
+    "pore_distance": 0.0008,
+    "rough_scale": 120,
+    "relief": 0.25
+  },
+  "rigid_skull": "short_side_part_v3"
+}

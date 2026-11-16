@@ -1,0 +1,49 @@
+{
+  "name": "long_center_part",
+  "description": "Long straight female hair, centre part, hugs the skull to below the ears then falls over the shoulders and back.",
+  "region": {
+    "type": "scalp",
+    "front": 0.084,
+    "temple_recess": 0.004,
+    "above_ear": 0.0,
+    "sideburn": -0.008,
+    "nape": 0.045,
+    "soft": 0.004
+  },
+  "density_per_cm2": 75,
+  "points": 18,
+  "radius": 0.00013,
+  "tip_ratio": 0.35,
+  "collision_depth": 0.45,
+  "growth": {
+    "length": [
+      0.3,
+      0.38
+    ],
+    "length_by_weight": false,
+    "hug": true,
+    "release_below": 0.0,
+    "gravity": 1.0,
+    "root_lift": 0.0008,
+    "volume": 0.01,
+    "volume_shape": 0.5,
+    "volume_ramp": 3.0,
+    "volume_by_zone": false
+  },
+  "flow": {
+    "kind": "long_center_part",
+    "sweep": 0.7,
+    "jitter": 0.03
+  },
+  "clump": {
+    "factor": 0.3,
+    "guides": 0.03,
+    "shape": 1.6
+  },
+  "scalp_cap": {
+    "offset": 0.0004,
+    "alpha": 1.0
+  },
+  "color_tip_mult": 1.3,
+  "seed": 7
+}

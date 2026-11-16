@@ -1,0 +1,38 @@
+# --- يُبنى من جديد على أي جهاز ---
+node_modules/
+.cache/
+__pycache__/
+*.pyc
+.DS_Store
+
+# --- رندرات ومخرجات (مكانها Drive) ---
+out/
+outputs/
+exports/
+backups/
+
+# --- ملفات بلندر الثقيلة (مكانها Drive) ---
+*.blend
+*.blend1
+blender/**/tests/
+
+# --- وسائط خام (مكانها Drive) ---
+public/media/
+public/audio/
+
+# --- أنواع ملفات ثقيلة أينما كانت ---
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.aep
+
+# الشعارات والخط في public/brand تبقى في GitHub (صغيرة)
+
+# --- كاش Poly Haven يُنزَّل من جديد، ورندرات بلندر (مكانها Drive) ---
+**/polyhaven_cache/
+**/blender/**/renders/
+
+# --- مفاتيح وإعدادات محلية ---
+.env*
+.claude/settings.local.json

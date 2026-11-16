@@ -1,0 +1,39 @@
+{
+  "name": "remotion-motion-graphics",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Arabic RTL corporate motion graphics library — ProRes 4444 with alpha for Premiere Pro",
+  "scripts": {
+    "studio": "remotion studio",
+    "render:all": "node scripts/render-all.mjs",
+    "render": "remotion render",
+    "render:preview": "PREVIEW=1 remotion render Showreel out/Showreel-preview.mp4",
+    "render:preview-alpha": "remotion render Showreel out/Showreel-alpha.mov --props=props/showreel-alpha.json",
+    "render:example": "remotion render Stat-Row out/Stat-Row-custom.mov --props=props/stat-row.example.json",
+    "typecheck": "tsc --noEmit",
+    "production:new": "node scripts/new-production.mjs",
+    "production:render": "node scripts/render-production.mjs",
+    "production:preview": "node scripts/render-production.mjs --preset=preview-h264",
+    "verify": "node scripts/verify.mjs",
+    "still": "node scripts/still.mjs",
+    "check:alpha": "node scripts/check-alpha.mjs"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.8.2",
+    "@remotion/cli": "4.0.543",
+    "@remotion/effects": "4.0.543",
+    "@remotion/google-fonts": "4.0.543",
+    "@remotion/three": "4.0.543",
+    "@remotion/transitions": "4.0.543",
+    "lucide-react": "1.59.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.543",
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "@types/three": "0.187.0",
+    "typescript": "^5.9"
+  }
+}

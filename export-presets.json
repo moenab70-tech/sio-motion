@@ -1,0 +1,20 @@
+{
+  "$comment": "Approved export presets. prores-4444-alpha is the delivery default for Premiere Pro.",
+  "default": "prores-4444-alpha",
+  "presets": {
+    "prores-4444-alpha": {
+      "description": "Delivery: Apple ProRes 4444 with alpha channel, transparent background, 1920x1080 @ 30fps",
+      "folder": "prores-4444-alpha",
+      "extension": "mov",
+      "env": {},
+      "flags": ["--codec=prores", "--prores-profile=4444", "--pixel-format=yuva444p10le", "--image-format=png"]
+    },
+    "preview-h264": {
+      "description": "Review: H.264 MP4, no alpha (transparent areas render black)",
+      "folder": "preview-h264",
+      "extension": "mp4",
+      "env": { "PREVIEW": "1" },
+      "flags": ["--codec=h264", "--pixel-format=yuv420p", "--image-format=jpeg", "--crf=18"]
+    }
+  }
+}

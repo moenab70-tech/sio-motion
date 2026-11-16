@@ -1,0 +1,12 @@
+{
+  "durationInSeconds": 8,
+  "layout": "row",
+  "digits": "latin",
+  "heading": "نتائج الربع الثالث",
+  "colors": { "accent": "#2BB673", "secondary": "#0E6BA8" },
+  "items": [
+    { "value": 15.4, "decimals": 1, "suffix": "%", "label": "نمو الإيرادات" },
+    { "value": 2300000, "compact": true, "decimals": 1, "label": "مستخدم نشط" },
+    { "value": 48, "label": "فرعاً جديداً" }
+  ]
+}

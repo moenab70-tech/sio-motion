@@ -1,0 +1,58 @@
+{
+  "name": "short_side_part_v3",
+  "description": "v3: v2 groom + anatomical nape hairline (back of the head fully covered, taper to the neck).",
+  "region": {
+    "type": "scalp",
+    "front": 0.08,
+    "temple_recess": 0.01,
+    "above_ear": 0.006,
+    "sideburn": -0.002,
+    "nape": 0.05,
+    "soft": 0.003,
+    "back_model": "nape",
+    "nape_side_rise": 0.03
+  },
+  "sampling": "stratified",
+  "density_per_cm2": 60,
+  "points": 12,
+  "radius": 0.00012,
+  "tip_ratio": 0.3,
+  "growth": {
+    "length": [
+      0.045,
+      0.055
+    ],
+    "length_by_weight": true,
+    "hug": true,
+    "root_lift": 0.0005,
+    "volume": 0.008,
+    "volume_shape": 0.6,
+    "tip_settle": 0.75,
+    "side_volume_cut": 0.75
+  },
+  "length_zones": {
+    "top": 1.0,
+    "sides": 0.3,
+    "rear_taper": 0.55,
+    "nape_fade": 0.07
+  },
+  "flow": {
+    "kind": "side_part_v2",
+    "part_x": 0.03,
+    "back": 0.7,
+    "sweep": 0.8,
+    "jitter": 0.015
+  },
+  "clump": {
+    "factor": 0.08,
+    "guides": 0.2,
+    "shape": 2.0
+  },
+  "smooth_iters": 1,
+  "scalp_cap": {
+    "offset": 0.0004,
+    "alpha": 1.0
+  },
+  "color_tip_mult": 1.15,
+  "seed": 3
+}
